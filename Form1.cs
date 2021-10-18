@@ -19,7 +19,7 @@ namespace GitHub_Odev
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            listBox1.Items.Clear();
             for (int i = 10; i <= 110; i += 10)
             {
                 listBox1.Items.Add(i.ToString());
@@ -28,6 +28,7 @@ namespace GitHub_Odev
 
         private void button2_Click(object sender, EventArgs e)
         {
+            listBox2.Items.Clear();
             for (int i = 110; i >= 10; i -= 10)
             {
                 listBox2.Items.Add(i.ToString());
