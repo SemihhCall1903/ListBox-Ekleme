@@ -34,5 +34,11 @@ namespace GitHub_Odev
                 listBox2.Items.Add(i.ToString());
             }
         }
+        
+        private void button2_Temizle(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+        }
     }
 }
